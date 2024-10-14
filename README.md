@@ -19,7 +19,7 @@ Relevant literature -
 
 Idea: Can categorical logic or topos logic (like with suboject classifier in $\mathcal{C}$-**Inst**) be useful in KG computations? \[add further explanation of idea\]. 
 
-\[Broader concept: CT for neurosymbolic AI\]. 
+\[Broader concept: CT for neurosymbolic AI - I have seen CT applied in other forms of computational logic too, see [PPLV](http://pplv.cs.ucl.ac.uk/) group at UCL. Can the same be said about CT applications to temporal logic ([7](https://arxiv.org/abs/1710.10258), [8](https://dl.acm.org/doi/10.1016/j.entcs.2012.08.015)), [modal](https://www.uni-bamberg.de/fileadmin/uni/fakultaeten/wiai_professuren/grundlagen_informatik/papersMM/conmodlog.pdf), [fuzzy](https://ijfs.usb.ac.ir/article_6077_9fa789612cdfd958226861183fbceac4.pdf) logics (given their relevance) for neuro-symbolic computation? Might be a nice way to model compositionality in neuro-symbolic computation\]. 
 
 
 
