@@ -19,6 +19,8 @@ Relevant literature -
 
 Idea: Can categorical logic or topos logic (like with suboject classifier in $\mathcal{C}$-**Inst**) be useful in KG computations? \[add further explanation of idea\]. 
 
+\[Broader concept: CT for neurosymbolic AI\]. 
+
 
 
 
