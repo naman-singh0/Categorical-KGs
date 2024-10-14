@@ -13,15 +13,13 @@ Relevant literature -
   - [Category-theoretical Semantics of the Description Logic ALC](https://arxiv.org/abs/2110.08837) by Chan Le Duc
   - [Reasoning in the Description Logic ALC under Category Semantics](https://arxiv.org/abs/2205.04911) by Ludovic Brieulle, Chan Le Duc, Pascal Vaillant.
 4. [Knowledge Representation in Bicategories of Relations](https://arxiv.org/abs/1706.00526) by Evan Patterson
-  - introduces _relational ontology logs_ which possess several useful features not possessed by most description logics, such as a type system and a rich, flexible notion of instance data. 
+  - introduces _relational ontology logs_ which possess several useful features not possessed by most description logics, such as a type system and a rich, flexible notion of instance data.
 
-\[**Precisely**, how do KGs rely on DLs? \]
-
+\[**Precisely**, how do KGs rely on DLs?\]
 \
-
 \[Review of [this primer](https://github.com/turing-knowledge-graphs/teaching/tree/main/city) on semantic web technologies and KGs is underway\]
 
-
+Idea: Can categorical logic or topos logic (like with suboject classifier in $\mathcal{C}$-**Inst**) be useful in KG computations? \[add further explanation of idea\]. 
 
 
 
