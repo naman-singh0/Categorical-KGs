@@ -5,7 +5,7 @@ Category theory has been heavily applied in knowledge representation, especially
 Relevant literature - 
 1. [Ologs: a categorical framework for knowledge representation](https://arxiv.org/abs/1102.1889) - by David I. Spivak, Robert E. Kent. 
   - Hallmark paper in categorical-KR, which leads to [categoricaldata.net](https://www.categoricaldata.net). 
-2. [Lattice-preserving $\mathcal{ALC}$ ontology embeddings](https://arxiv.org/abs/2305.07163) by Fernando Zhapa-Camacho, Robert Hoehndorf 
+2. [Lattice-preserving ALC ontology embeddings](https://arxiv.org/abs/2305.07163) by Fernando Zhapa-Camacho, Robert Hoehndorf 
   - Uses categorical formulation of description logics for lattice preserving ontology embeddings. 
 3. Categorical formulations of Description Logics
   - [Category-theoretical Semantics of the Description Logic ALC](https://arxiv.org/abs/2110.08837) by Chan Le Duc
