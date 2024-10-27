@@ -14,7 +14,7 @@ Relevant literature -
   - introduces _relational ontology logs_ which have several useful features not possessed by most description logics, such as a type system and a rich, flexible notion of instance data.
 5. [Representing Knowledge and Querying Data using Double-Functorial Semantics](https://arxiv.org/abs/2403.19884) by Michael Lambert, Evan Patterson
 
-[Comparative analysis of expressitivity and computational efficiency between CT DLs and classic DLs?]. 
+[Comparative analysis of expressitivity and computational efficiency between CT DLs and classic DLs?] + [What are the merits of articulating DLs with CT? or formulating new methodologies for KR with CT?]
 
 \[**Precisely**, how do KGs rely on DLs?\]
 \
