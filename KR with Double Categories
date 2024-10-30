@@ -2,28 +2,36 @@ Categorical semantics of ALC description logic have been used to develop lattice
 
 Categorical semantics of description logics follow the vein of CT applications to KR and databases, which have seen more than a decade of theoretical and practical development. 
 
-\begin{definition} A double category $\mathcal{D} = \mathcal{D}_1\to \mathcal{D}_0$ consists of 
-    \begin{itemize}[noitemsep]
-        \item objects: objects $A,A',B,B'\dots$ of $\mathcal{D}_0$
-        \item arrows (or vertical morphisms), which are the morphisms of $\mathcal{D}_0$ given by $f:A\rightarrow A'$
-        \item (vertical) composition of arrows given by $f'\circ f$
-        \item arrow identities $id_A$ for each object of $\mathcal{D}_0$
-        \item proarrows (or horizontal morphisms), which are the objects of $\mathcal{D}_1$ given by $R:A\twoheadrightarrow B$
-        \item (horizontal) composition of proarrows given by $R'\bullet R$
-        \item proarrow identities $1_A$ for each object of $\mathcal{D}_0$
-        \item 2-morphisms, which are the morphisms of $\mathcal{D}_1$, given by squares such as \begin{center}
-            \begin{tikzcd}
-            A \arrow[r, "R", two heads] \arrow[d, "f"'] \arrow[d, "\alpha"', Rightarrow, shift left=9] & B \arrow[d, "g"] \\
-            A' \arrow[r, "S"', two heads]                                                              & B'  
-            \end{tikzcd}
-        \end{center}
-        \item squares may be composed vertically ($\alpha'\circ\alpha$) and horizontally ($\beta\bullet\alpha$)
-        \item vertical and horizontal identities for arrows ($1_R$) and proarrows ($id_f$) 
-    \end{itemize}
-    such that 
-    \begin{itemize}[noitemsep]
-        \item vertical and horizontal composition are associative and unitary on (pro)arrows and squares
-        \item interchange law for vertical and horizontal composition of squares: $$(\beta'\circ\beta)\bullet(\alpha'\circ\alpha)=(\beta'\bullet\alpha')\circ(\beta\bullet\alpha)$$ 
-        \item interchange law for identity squares: $1_{f'}\circ1_f = 1_{f'\circ f}$ , $id_{R'}\bullet id_R=id_{R'\bullet R}$, and $id_{1_A}=1_{id_A}$ 
-    \end{itemize}
-\end{definition}
+**Definition**  
+A double category $\mathcal{D} = \mathcal{D}_1 \to \mathcal{D}_0$ consists of:
+
+- **Objects**: objects $A, A', B, B' \dots$ of $\mathcal{D}_0$
+- **Arrows (or vertical morphisms)**: morphisms of $\mathcal{D}_0$ given by $f: A \rightarrow A'$
+- **(Vertical) Composition of arrows**: denoted $f' \circ f$
+- **Arrow identities**: $id_A$ for each object of $\mathcal{D}_0$
+- **Proarrows (or horizontal morphisms)**: objects of $\mathcal{D}_1$ given by $R: A \twoheadrightarrow B$
+- **(Horizontal) Composition of proarrows**: denoted $R' \bullet R$
+- **Proarrow identities**: $1_A$ for each object of $\mathcal{D}_0$
+- **2-morphisms**: morphisms of $\mathcal{D}_1$, represented by squares such as:
+
+$$
+\begin{tikzcd}
+A \arrow[r, "R", two heads] \arrow[d, "f"'] \arrow[d, "\alpha"', Rightarrow, shift left=9] & B \arrow[d, "g"] \\
+A' \arrow[r, "S"', two heads]                                                              & B'  
+\end{tikzcd}
+$$
+
+- **Square composition**: vertically ($\alpha' \circ \alpha$) and horizontally ($\beta \bullet \alpha$)
+- **Vertical and horizontal identities** for arrows ($1_R$) and proarrows ($id_f$)
+
+Such that:
+
+- Vertical and horizontal composition are associative and unitary on (pro)arrows and squares
+- **Interchange law** for vertical and horizontal composition of squares:
+  $$
+  (\beta' \circ \beta) \bullet (\alpha' \circ \alpha) = (\beta' \bullet \alpha') \circ (\beta \bullet \alpha)
+  $$
+- **Interchange law** for identity squares:
+  $$
+  1_{f'} \circ 1_f = 1_{f' \circ f}, \quad id_{R'} \bullet id_R = id_{R' \bullet R}, \quad \text{and} \quad id_{1_A} = 1_{id_A}
+  $$
