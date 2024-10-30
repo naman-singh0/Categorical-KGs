@@ -2,36 +2,5 @@ Categorical semantics of ALC description logic have been used to develop lattice
 
 Categorical semantics of description logics follow the vein of CT applications to KR and databases, which have seen more than a decade of theoretical and practical development. 
 
-**Definition**  
-A double category $\mathcal{D} = \mathcal{D}_1 \to \mathcal{D}_0$ consists of:
+$\mathcal{D}$
 
-- **Objects**: objects $A, A', B, B' \dots$ of $\mathcal{D}_0$
-- **Arrows (or vertical morphisms)**: morphisms of $\mathcal{D}_0$ given by $f: A \rightarrow A'$
-- **(Vertical) Composition of arrows**: denoted $f' \circ f$
-- **Arrow identities**: $id_A$ for each object of $\mathcal{D}_0$
-- **Proarrows (or horizontal morphisms)**: objects of $\mathcal{D}_1$ given by $R: A \twoheadrightarrow B$
-- **(Horizontal) Composition of proarrows**: denoted $R' \bullet R$
-- **Proarrow identities**: $1_A$ for each object of $\mathcal{D}_0$
-- **2-morphisms**: morphisms of $\mathcal{D}_1$, represented by squares such as:
-
-$$
-\begin{tikzcd}
-A \arrow[r, "R", two heads] \arrow[d, "f"'] \arrow[d, "\alpha"', Rightarrow, shift left=9] & B \arrow[d, "g"] \\
-A' \arrow[r, "S"', two heads]                                                              & B'  
-\end{tikzcd}
-$$
-
-- **Square composition**: vertically ($\alpha' \circ \alpha$) and horizontally ($\beta \bullet \alpha$)
-- **Vertical and horizontal identities** for arrows ($1_R$) and proarrows ($id_f$)
-
-Such that:
-
-- Vertical and horizontal composition are associative and unitary on (pro)arrows and squares
-- **Interchange law** for vertical and horizontal composition of squares:
-  $$
-  (\beta' \circ \beta) \bullet (\alpha' \circ \alpha) = (\beta' \bullet \alpha') \circ (\beta \bullet \alpha)
-  $$
-- **Interchange law** for identity squares:
-  $$
-  1_{f'} \circ 1_f = 1_{f' \circ f}, \quad id_{R'} \bullet id_R = id_{R' \bullet R}, \quad \text{and} \quad id_{1_A} = 1_{id_A}
-  $$
