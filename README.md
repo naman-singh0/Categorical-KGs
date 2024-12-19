@@ -16,10 +16,6 @@ Relevant literature -
 
 [Comparative analysis of expressitivity and computational efficiency between CT DLs and classic DLs?] + [What are the merits of articulating DLs with CT? or formulating new methodologies for KR with CT?]
 
-\[**Precisely**, how do KGs rely on DLs?\]
-\
-\[Review of [this primer](https://github.com/turing-knowledge-graphs/teaching/tree/main/city) on semantic web technologies and KGs is underway\]
-
 Idea: Can categorical logic or topos logic (like with suboject classifier in $\mathcal{C}$-**Inst**) be useful in KG computations? \[add further explanation of idea\]. [Add further explanation of idea]
 
 [Constructing Topos from RDF Data](https://ieeexplore.ieee.org/document/7396847) by Marek Z. Reformat, Tim Put
